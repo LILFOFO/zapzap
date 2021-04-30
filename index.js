@@ -1,13 +1,3 @@
-/*
-* Tambahin nama author lah
-* Author nya Radya, Farid, M.hadi.firmansya, and Nazwa
-* Tambahin ya zhayank
-* Jan numpang nama doank
-* Baca readme nya biar gk tanya tanya
-
-- What's New?
-* Change Arugaz prefix & Fix Fitnah & Fix Ping
-*/
 
 const {
     WAConnection,
@@ -40,9 +30,9 @@ const imgbb = require('imgbb-uploader')
 const lolis = require('lolis.life')
 const loli = new lolis()
 const speed = require('performance-now')
-/******END OF NPM PACKAGE INPUT******/
 
-/******BEGIN OF JSON INPUT******/
+
+
 const welkom = JSON.parse(fs.readFileSync('./database/json/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./database/json/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./database/json/simi.json'))
@@ -57,7 +47,7 @@ const { logomaker } = require('./database/menu/logomaker')
 const { brayanmenu } = require('./src/brayanmenu')
 const { menuadmin } = require('./src/menuadmin')
 const { nsfwmenu } = require('./src/nsfwmenu')
-/*const { mediamenu } = require('./database/menu/mediamenu')
+/*const { mediamenu } = require('./database/menu/mediam	enu')
 const { educationmenu } = require('./database/menu/educationmenu')
 const { downloadermenu } = require('./database/menu/downloadermenu')
 const { mememenu } = require('./database/menu/mememenu')
@@ -73,14 +63,14 @@ const { informationmenu } = require('./database/menu/informationmenu')
 const { 18+menu } require('./database/menu/18+menu')
 const { ownermenu } require('./database/menu/ownermenu')
 const { othermenu } require('./database/menu/othermenu')*/
-/******END OF MENU INPUT******/
 
-/******LOAD OF VCARD INPUT******/
+
+
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'LILFOFO / CARLIN\n' // full name
             + 'ORG:OGLILFOFO7;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=5581983574467+55 (81) 98357-4467/+55 65 9636-4518\n' // ID do WhatsApp + número de telefone
+            + 'TEL;type=CELL;type=VOICE;waid=5581983574467+55 (81) 98357-4467/+556596364518\n' // ID do WhatsApp + número de telefone
             + 'END:VCARD'
 /******END OF VCARD INPUT******/
 
@@ -270,7 +260,6 @@ async function starts() {
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
 			const ownerNumber = ["5581983574467@s.whatsapp.net"] // replace this with your number
-			const ownerNumber = ["5565996364518@s.whatsapp.net"]
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
