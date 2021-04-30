@@ -1,4 +1,5 @@
-### Oii sou o Brayan
+### Oii sou o LIL FOFO
+
 
 
 
@@ -233,8 +234,3 @@ Siga os passos abaixo!
 ---
 
 
-
-## Agradecimentos especiais para
-
-- [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys) 
-- [ToinNetuh](https://github.com/ToinNetuh)
